@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 Summary:	Submit release information to freshmeat.net
 Summary(pl):	Wysy³anie informacji o wydaniach na freshmeat.net
 Name:		freshmeat-submit
