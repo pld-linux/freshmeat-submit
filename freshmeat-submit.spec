@@ -8,7 +8,6 @@ Group:		Applications/System
 Source0:	http://www.catb.org/~esr/freshmeat-submit/%{name}-%{version}.tar.gz
 # Source0-md5:	0c08186b4f0bd6d026c45c3028ed2ccc
 URL:		http://www.catb.org/~esr/freshmeat-submit/
-BuildRequires:	rpm-pythonprov
 Requires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
