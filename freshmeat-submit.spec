@@ -1,5 +1,6 @@
 %include	/usr/lib/rpm/macros.python
 Summary:	Submit release information to freshmeat.net
+Summary(pl):	Wysy³anie informacji o wydaniach na freshmeat.net
 Name:		freshmeat-submit
 Version:	1.4
 Release:	0.1
@@ -7,9 +8,9 @@ License:	GPL
 Group:		Applications/System
 Source0:	http://www.catb.org/~esr/freshmeat-submit/%{name}-%{version}.tar.gz
 # Source0-md5:	ab45def4807f8ee8da9d877eb3175f90
+URL:		http://www.catb.org/~esr/freshmeat-submit/
 BuildRequires:	rpm-pythonprov
 Requires:	python
-URL:		http://www.catb.org/~esr/freshmeat-submit/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -19,12 +20,19 @@ for use in project release scripts. It reads the metadata from an
 RFC-2822-like message on standard input, possibly with overrides by
 command-line switches.
 
+%description -l pl
+freshmeat-submit to skrypt wspomagaj±cy zdalne wysy³anie uaktualnieñ
+informacji o wydaniach na Freshmeacie poprzez interfejs XML-RPC. Jest
+przeznaczony do u¿ywania w skryptach u¿ywanych przy wydawaniu
+projektów. Odczytuje metadane z wiadomo¶ci w stylu RFC-2822 ze
+standardowego wej¶cia z mo¿liwymi przykryciami poprzez opcje z linii
+poleceñ.
+
 %prep
 %setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
-rm -rf "$RPM_BUILD_ROOT"
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
 install freshmeat-submit $RPM_BUILD_ROOT%{_bindir}
