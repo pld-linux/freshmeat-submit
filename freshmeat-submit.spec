@@ -1,12 +1,12 @@
 Summary:	Submit release information to freshmeat.net
 Summary(pl):	Wysy³anie informacji o wydaniach na freshmeat.net
 Name:		freshmeat-submit
-Version:	1.4
+Version:	1.6
 Release:	0.1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.catb.org/~esr/freshmeat-submit/%{name}-%{version}.tar.gz
-# Source0-md5:	ab45def4807f8ee8da9d877eb3175f90
+# Source0-md5:	0c08186b4f0bd6d026c45c3028ed2ccc
 URL:		http://www.catb.org/~esr/freshmeat-submit/
 BuildRequires:	rpm-pythonprov
 Requires:	python
@@ -42,5 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc AUTHORS README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1*
