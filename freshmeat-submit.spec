@@ -1,5 +1,5 @@
 Summary:	Submit release information to freshmeat.net
-Summary(pl):	Wysy≥anie informacji o wydaniach na freshmeat.net
+Summary(pl.UTF-8):   Wysy≈Çanie informacji o wydaniach na freshmeat.net
 Name:		freshmeat-submit
 Version:	1.6
 Release:	0.1
@@ -18,13 +18,13 @@ for use in project release scripts. It reads the metadata from an
 RFC-2822-like message on standard input, possibly with overrides by
 command-line switches.
 
-%description -l pl
-freshmeat-submit to skrypt wspomagaj±cy zdalne wysy≥anie uaktualnieÒ
+%description -l pl.UTF-8
+freshmeat-submit to skrypt wspomagajƒÖcy zdalne wysy≈Çanie uaktualnie≈Ñ
 informacji o wydaniach na Freshmeacie poprzez interfejs XML-RPC. Jest
-przeznaczony do uøywania w skryptach uøywanych przy wydawaniu
-projektÛw. Odczytuje metadane z wiadomo∂ci w stylu RFC-2822 ze
-standardowego wej∂cia z moøliwymi przykryciami poprzez opcje z linii
-poleceÒ.
+przeznaczony do u≈ºywania w skryptach u≈ºywanych przy wydawaniu
+projekt√≥w. Odczytuje metadane z wiadomo≈õci w stylu RFC-2822 ze
+standardowego wej≈õcia z mo≈ºliwymi przykryciami poprzez opcje z linii
+polece≈Ñ.
 
 %prep
 %setup -q
