@@ -1,5 +1,5 @@
 Summary:	Submit release information to freshmeat.net
-Summary(pl.UTF-8):   Wysyłanie informacji o wydaniach na freshmeat.net
+Summary(pl.UTF-8):	Wysyłanie informacji o wydaniach na freshmeat.net
 Name:		freshmeat-submit
 Version:	1.6
 Release:	0.1
